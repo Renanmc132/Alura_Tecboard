@@ -36,6 +36,10 @@ span{
     grid-column-start: 1;
 }
 
+.logo:hover{
+    cursor: pointer;
+}
+
 .modeButton{
     grid-column-start: 3;
 }
@@ -63,13 +67,7 @@ span{
     transition: 1s ease-in;
 }
 
-.btnContainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-}
+
 
 .demoButton{
     font-family: "Poppins";
@@ -78,9 +76,13 @@ span{
     color: var(--text);
     background-color: var(--roxo-destaque);
     border: none;
-    padding: 0.8rem 1.5rem;
-    border-radius: 3rem;
-    transition: 1s ease-in;
+    width: 340px;
+    height: 66px;
+    display: block;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 36px;
+    margin: 40px auto;
 }
 
 .demoButton:hover{
