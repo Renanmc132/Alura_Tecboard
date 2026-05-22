@@ -22,18 +22,20 @@ body{
     transition: 1s ease-in;
 }
 
-header{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    padding: 2rem 10rem;
-}
 
 span{
     color: var(--roxo-destaque);
 }
 
+header{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding-top: 75px;
+}
+
 .logo{
-    grid-column-start: 1;
+    padding-left: 360px;
+    grid-column-start: 2;
 }
 
 .logo:hover{
@@ -41,7 +43,8 @@ span{
 }
 
 .modeButton{
-    grid-column-start: 3;
+    padding-right: 360px;
+    grid-column-start: 4;
 }
 
 .modeButton:hover{
@@ -98,6 +101,56 @@ span{
     margin: 0 auto;
 }
 
+@media(max-width: 768px){
+
+.subTitle{
+    width: 648px;
+}
+
+.logo{
+    padding-left: 80px;
+    grid-column-start: 2;
+}
+
+.modeButton{
+    padding-right: 80px;
+    grid-column-start: 4;
+}
 
 
+}
+
+
+@media(max-width: 375px){
+
+.subTitle{
+    width: 341px;
+}
+
+.image{
+    width: 341px;
+    height: 230px;
+}
+
+.demoButton{
+    width: 251px;
+    height: 66px;
+}
+
+.logo{
+    padding-left: 16px;
+    grid-column-start: 2;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.modeButton{
+    padding-right: 16px;
+    grid-column-start: 4;
+}
+
+
+}
 
