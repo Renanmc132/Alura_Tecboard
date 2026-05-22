@@ -11,11 +11,11 @@ modeButton.addEventListener("click", () => {
     const lightMode = document.body.classList.contains("light-mode");
 
     if(lightMode){
-        logo.src = "img/logo-tecboard-preto.png";
-        modeButton.src = "img/dark-mode-button.png";
+        logo.src = "assets/images/logo-tecboard-preto.png";
+        modeButton.src = "assets/images/dark-mode-button.png";
     }else{
-        logo.src = "img/logo-tecboard-branco.png";
-        modeButton.src = "img/light-mode-button.png";
+        logo.src = "assets/images/logo-tecboard-branco.png";
+        modeButton.src = "assets/images/light-mode-button.png";
     }
 
 });
