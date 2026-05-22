@@ -1,0 +1,90 @@
+*{
+    font-family: Sn Pro;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --roxo-destaque: #9747FF;
+    --roxo-hover: #8233E8;
+    --text: #FFFFFF;
+    --fundo: #0E1014;
+    
+}
+
+.light-mode{
+    --text: #232323;
+    --fundo: #FFFFFF;
+}
+
+body{
+    background-color: var(--fundo);
+    overflow: hidden;
+    transition: 1s ease-in;
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 2rem 10rem;
+}
+
+.logo{
+    grid-column-start: 1;
+}
+
+.modeButton{
+    grid-column-start: 3;
+}
+
+.modeButton:hover{
+    cursor: pointer;
+
+}
+
+.title{
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 800;
+    color: var(--text);
+}
+
+.subTitle{
+    font-size: 1.8rem;
+    text-align: center;
+    color: var(--text);
+}
+
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.demoButton{
+    font-size: 1.8rem;
+    color: var(--text);
+    background-color: var(--roxo-destaque);
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 3rem;
+}
+
+.demoButton:hover{
+    background-color: var(--roxo-hover);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+
+
+
