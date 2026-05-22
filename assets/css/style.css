@@ -65,6 +65,8 @@ span{
     text-align: center;
     color: var(--text);
     transition: 1s ease-in;
+    width: 792px;
+    margin: 24px auto;
 }
 
 
@@ -92,10 +94,8 @@ span{
 }
 
 .image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
+    display: block;
+    margin: 0 auto;
 }
 
 
